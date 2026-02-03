@@ -686,6 +686,10 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+.skills {
+  margin-left: 150px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -908,6 +912,12 @@ section,
 --------------------------------------------------------------*/
 .project .service-item {
   position: relative;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-radius: 10px;
+  background: var(--surface-color);
+  height: 100%;
+  min-height: 160px;
 }
 
 .project .service-item .icon {
@@ -1283,6 +1293,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
